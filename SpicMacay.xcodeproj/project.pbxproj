@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C313B33319BE077100815893 /* Aqua.png in Resources */ = {isa = PBXBuildFile; fileRef = C313B33119BE077100815893 /* Aqua.png */; };
+		C313B33419BE077100815893 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = C313B33219BE077100815893 /* Red.png */; };
+		C313B33619BE08BC00815893 /* Lime.png in Resources */ = {isa = PBXBuildFile; fileRef = C313B33519BE08BC00815893 /* Lime.png */; };
 		C36888B419BBC80400B4FE17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36888B319BBC80400B4FE17 /* Foundation.framework */; };
 		C36888B619BBC80400B4FE17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36888B519BBC80400B4FE17 /* CoreGraphics.framework */; };
 		C36888B819BBC80400B4FE17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36888B719BBC80400B4FE17 /* UIKit.framework */; };
@@ -22,6 +25,7 @@
 		C36888D819BBC80400B4FE17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36888B719BBC80400B4FE17 /* UIKit.framework */; };
 		C36888E019BBC80400B4FE17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C36888DE19BBC80400B4FE17 /* InfoPlist.strings */; };
 		C36888E219BBC80400B4FE17 /* SpicMacayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C36888E119BBC80400B4FE17 /* SpicMacayTests.m */; };
+		C3D9A3AF19FDE26900210FC9 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D9A3AE19FDE26900210FC9 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C313B33119BE077100815893 /* Aqua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aqua.png; sourceTree = "<group>"; };
+		C313B33219BE077100815893 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		C313B33519BE08BC00815893 /* Lime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lime.png; sourceTree = "<group>"; };
 		C36888B019BBC80400B4FE17 /* SpicMacay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpicMacay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36888B319BBC80400B4FE17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C36888B519BBC80400B4FE17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +62,8 @@
 		C36888DD19BBC80400B4FE17 /* SpicMacayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpicMacayTests-Info.plist"; sourceTree = "<group>"; };
 		C36888DF19BBC80400B4FE17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C36888E119BBC80400B4FE17 /* SpicMacayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpicMacayTests.m; sourceTree = "<group>"; };
+		C3D9A3AD19FDE26900210FC9 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		C3D9A3AE19FDE26900210FC9 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +129,11 @@
 				C36888C819BBC80400B4FE17 /* Main_iPad.storyboard */,
 				C36888CB19BBC80400B4FE17 /* ViewController.h */,
 				C36888CC19BBC80400B4FE17 /* ViewController.m */,
+				C3D9A3AD19FDE26900210FC9 /* View.h */,
+				C3D9A3AE19FDE26900210FC9 /* View.m */,
+				C313B33119BE077100815893 /* Aqua.png */,
+				C313B33219BE077100815893 /* Red.png */,
+				C313B33519BE08BC00815893 /* Lime.png */,
 				C36888CE19BBC80400B4FE17 /* Images.xcassets */,
 				C36888BA19BBC80400B4FE17 /* Supporting Files */,
 			);
@@ -232,9 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C36888CA19BBC80400B4FE17 /* Main_iPad.storyboard in Resources */,
+				C313B33619BE08BC00815893 /* Lime.png in Resources */,
 				C36888CF19BBC80400B4FE17 /* Images.xcassets in Resources */,
+				C313B33319BE077100815893 /* Aqua.png in Resources */,
 				C36888C719BBC80400B4FE17 /* Main_iPhone.storyboard in Resources */,
 				C36888BE19BBC80400B4FE17 /* InfoPlist.strings in Resources */,
+				C313B33419BE077100815893 /* Red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D9A3AF19FDE26900210FC9 /* View.m in Sources */,
 				C36888CD19BBC80400B4FE17 /* ViewController.m in Sources */,
 				C36888C419BBC80400B4FE17 /* AppDelegate.m in Sources */,
 				C36888C019BBC80400B4FE17 /* main.m in Sources */,
@@ -390,9 +408,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/IQKeyboardManager-master/IQKeyboardManager",
+					Framework,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpicMacay/SpicMacay-Prefix.pch";
 				INFOPLIST_FILE = "SpicMacay/SpicMacay-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,9 +426,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/IQKeyboardManager-master/IQKeyboardManager",
+					Framework,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpicMacay/SpicMacay-Prefix.pch";
 				INFOPLIST_FILE = "SpicMacay/SpicMacay-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +498,7 @@
 				C36888E719BBC80400B4FE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C36888E819BBC80400B4FE17 /* Build configuration list for PBXNativeTarget "SpicMacayTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +507,7 @@
 				C36888EA19BBC80400B4FE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
